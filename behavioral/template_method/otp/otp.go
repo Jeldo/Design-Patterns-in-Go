@@ -7,15 +7,15 @@ type OTPInterface interface {
 	SendNotification(message string) error
 }
 
-type OTPImpl struct {
+type OTPImplementation struct {
 	OTPInterface
 }
 
-func NewOTP(o OTPInterface) OTPImpl {
-	return OTPImpl{OTPInterface: o}
+func NewOTP(oi OTPInterface) OTPImplementation {
+	return OTPImplementation{OTPInterface: oi}
 }
 
-func (o OTPImpl) GenerateAndSendOTP(otpLength int) error {
+func (o OTPImplementation) GenerateAndSendOTP(otpLength int) error {
 	otp := o.GenerateRandomOTP(otpLength)
 	o.SaveOTPCache(otp)
 	message := o.GetMessage(otp)

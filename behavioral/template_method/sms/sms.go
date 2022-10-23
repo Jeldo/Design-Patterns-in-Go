@@ -1,12 +1,11 @@
 package sms
 
 import (
-	"DesignPatterns/behavioral/template_method/otp"
 	"fmt"
 )
 
 type SMS struct {
-	otp.OTPInterface
+	//otp.OTPInterface  // duck typing: struct doesn't have to implement interface
 }
 
 func (s SMS) GenerateRandomOTP(otpLength int) string {

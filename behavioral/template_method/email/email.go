@@ -1,12 +1,11 @@
 package email
 
 import (
-	"DesignPatterns/behavioral/template_method/otp"
 	"fmt"
 )
 
 type Email struct {
-	otp.OTPInterface
+	//otp.OTPInterface
 }
 
 func (s Email) GenerateRandomOTP(otpLength int) string {
