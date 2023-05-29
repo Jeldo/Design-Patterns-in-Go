@@ -11,6 +11,7 @@ heavily copied from https://refactoring.guru/design-patterns
   - [Abstract Factory](/creational/abstract-factory)
   - [Factory Method](/creational/factory-method)
   - [Singleton](/creational/singleton)
+  - [Builder](/creational/builder)
 - Structural Patterns
   - [Adapter](/structural/adapter)
   - [Decorator](/structural/decorator)
