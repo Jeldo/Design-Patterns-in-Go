@@ -1,4 +1,4 @@
-package builder
+package house
 
 type Director struct {
 	builder Builder

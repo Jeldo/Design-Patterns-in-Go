@@ -1,15 +1,15 @@
 package main
 
 import (
-	builder "DesignPatterns/creational/builder/house"
+	"DesignPatterns/creational/builder/house"
 	"fmt"
 )
 
 func main() {
-	normalBuilder := builder.GetBuilder("normal")
-	iglooBuilder := builder.GetBuilder("igloo")
+	normalBuilder := house.GetBuilder("normal")
+	iglooBuilder := house.GetBuilder("igloo")
 
-	director := builder.NewDirector(normalBuilder)
+	director := house.NewDirector(normalBuilder)
 	normalHouse := director.BuildHouse()
 
 	fmt.Println("Normal House Door Type:", normalHouse.DoorType())
