@@ -1,8 +1,8 @@
 package main
 
 import (
-	"DesignPatterns/structural/abstract-factory/model/factory"
-	"DesignPatterns/structural/abstract-factory/model/factory/sports"
+	"DesignPatterns/creational/abstract-factory/model/factory"
+	"DesignPatterns/creational/abstract-factory/model/factory/sports"
 	"fmt"
 )
 

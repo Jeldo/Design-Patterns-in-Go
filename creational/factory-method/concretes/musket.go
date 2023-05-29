@@ -1,7 +1,7 @@
 package concretes
 
 import (
-	"DesignPatterns/structural/factory-method/model"
+	"DesignPatterns/creational/factory-method/model"
 )
 
 type Musket struct {

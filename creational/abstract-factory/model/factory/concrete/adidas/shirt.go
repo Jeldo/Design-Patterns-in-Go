@@ -1,7 +1,7 @@
 package adidas
 
 import (
-	"DesignPatterns/structural/abstract-factory/model/factory/shirt"
+	"DesignPatterns/creational/abstract-factory/model/factory/shirt"
 )
 
 type AdidasShirt struct {

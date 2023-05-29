@@ -1,7 +1,7 @@
 package nike
 
 import (
-	"DesignPatterns/structural/abstract-factory/model/factory/shirt"
+	"DesignPatterns/creational/abstract-factory/model/factory/shirt"
 )
 
 type NikeShirt struct {

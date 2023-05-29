@@ -1,8 +1,8 @@
 package main
 
 import (
-	"DesignPatterns/structural/factory-method/gun-factory"
-	"DesignPatterns/structural/factory-method/model"
+	"DesignPatterns/creational/factory-method/gun-factory"
+	"DesignPatterns/creational/factory-method/model"
 	"fmt"
 )
 

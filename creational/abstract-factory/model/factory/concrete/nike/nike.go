@@ -1,9 +1,9 @@
 package nike
 
 import (
-	"DesignPatterns/structural/abstract-factory/model/factory/shirt"
-	"DesignPatterns/structural/abstract-factory/model/factory/shoe"
-	"DesignPatterns/structural/abstract-factory/model/factory/sports"
+	"DesignPatterns/creational/abstract-factory/model/factory/shirt"
+	"DesignPatterns/creational/abstract-factory/model/factory/shoe"
+	"DesignPatterns/creational/abstract-factory/model/factory/sports"
 )
 
 type NikeFactory struct{}

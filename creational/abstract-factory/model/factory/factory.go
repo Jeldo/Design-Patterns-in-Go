@@ -1,9 +1,9 @@
 package factory
 
 import (
-	"DesignPatterns/structural/abstract-factory/model/factory/concrete/adidas"
-	"DesignPatterns/structural/abstract-factory/model/factory/concrete/nike"
-	"DesignPatterns/structural/abstract-factory/model/factory/sports"
+	"DesignPatterns/creational/abstract-factory/model/factory/concrete/adidas"
+	"DesignPatterns/creational/abstract-factory/model/factory/concrete/nike"
+	"DesignPatterns/creational/abstract-factory/model/factory/sports"
 	"errors"
 )
 
