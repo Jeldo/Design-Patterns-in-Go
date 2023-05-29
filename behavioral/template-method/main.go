@@ -1,9 +1,9 @@
 package main
 
 import (
-	"DesignPatterns/behavioral/template_method/email"
-	"DesignPatterns/behavioral/template_method/otp"
-	"DesignPatterns/behavioral/template_method/sms"
+	"DesignPatterns/behavioral/template-method/email"
+	"DesignPatterns/behavioral/template-method/otp"
+	"DesignPatterns/behavioral/template-method/sms"
 	"fmt"
 )
 

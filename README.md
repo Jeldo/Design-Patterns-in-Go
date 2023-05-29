@@ -7,10 +7,14 @@ heavily copied from https://refactoring.guru/design-patterns
 
 ## Table of Contents
 
-- [Creational Patterns](#creational-patterns)
-  - [Abstract Factory](https://github.com/Jeldo/Design-Patterns-in-Go/tree/main/creational/factory)
-  - [Builder](#builder)
-  - [Factory Method](#factory-method)
-  - [Prototype](#prototype)
-  - [Singleton](#singleton)
-  - 
+- Creational Patterns
+  - [Abstract Factory](/creational/abstract-factory)
+  - [Factory Method](/creational/factory-method)
+  - [Singleton](/creational/singleton)
+- Structural Patterns
+  - [Adapter](/structural/adapter)
+  - [Decorator](/structural/decorator)
+  - [Facade](/structural/facade)
+- Behavioral Patterns
+  - [Strategy](/behavioral/strategy)
+  - [Template Method](/behavioral/template-method)
